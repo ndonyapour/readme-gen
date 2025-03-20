@@ -1,0 +1,10 @@
+[project]
+name = "readme-gen"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "atomic-agents>=1.0.24",
+    "pydantic>=2.10.6",
+]

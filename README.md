@@ -14,12 +14,6 @@ This script analyzes a repository containing multiple tools, each with its own R
 - Generates a unified README with a consistent structure
 - Provides a summary of all tools found in the repository
 
-## Requirements
-
-- Python 3.8+
-- OpenAI API key
-- Local OpenAI-compatible API server (optional)
-
 ## Installation
 
 1. Clone this repository:
@@ -55,20 +49,4 @@ python readmeagent.py /path/to/repository --output UNIFIED_README.md
 ```bash
 python readmeagent.py ~/projects/my-toolkit --output ~/projects/my-toolkit/README.md
 ```
-
-This will:
-1. Find all README files in the repository
-2. Analyze each README to understand the purpose of each tool
-3. Generate a unified README that provides an overview of all tools
-4. Save the unified README to the specified output file
-
-## How It Works
-
-The script uses the Atomic Agents framework to create an AI agent that:
-
-1. Recursively searches for all README files in the repository
-2. Analyzes the content of each README to understand the purpose and features of each tool
-3. Identifies common themes and relationships between the tools
-4. Extracts key information about each tool
-5. Generates a unified README that provides a user-friendly overview of the entire repository
 
